@@ -40,10 +40,10 @@ export const DashboardLayout = ({ children, sidebar: Sidebar }) => {
         <Col {...courseListColumnProps} className="course-list-column">
           {children}
         </Col>
-        <Col {...columnConfig.sidebar} className="sidebar-column">
+        /*<Col {...columnConfig.sidebar} className="sidebar-column">
           {!isCollapsed && (<h2 className="course-list-title">&nbsp;</h2>)}
           <Sidebar setSidebarShowing={setSidebarShowing} />
-        </Col>
+        </Col>*/
       </Row>
       <Row>
         <Col>

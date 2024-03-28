@@ -27,7 +27,7 @@ export const CourseCard = ({
             <Card.Body>
               <Card.Header
                 title={<CourseCardTitle cardId={cardId} />}
-                actions={<CourseCardMenu cardId={cardId} />}
+                // actions={<CourseCardMenu cardId={cardId} />}
               />
               <Card.Section className="pt-0">
                 <CourseCardDetails cardId={cardId} />
